@@ -4,8 +4,7 @@ Autómata finito determinista que permite reconocer y validar si una cadena de c
 - [x] Puede reconocer y validar números del 1 al 3999.
 - [x] Si se ingresa en el estado rechazador se deja de procesar automáticamente.
 
-
-**Características de la numeración romana**
+### Características de la numeración romana
 - Los caracteres se leen de izquierda a derecha.
 - Un símbolo que es seguido de otro igual o menor conforma una suma.
 - Un símbolo seguido de otro mayor forma un subconjunto donde el menor se resta del mayor.
@@ -25,3 +24,6 @@ Autómata finito determinista que permite reconocer y validar si una cadena de c
 		| :---: | :---: |
 		| 4 | - |
 		| Bien | Mal |
+
+### Aplicación Web
+La aplicación web totalmente funcional se encuentra disponible en [**GitHub Pages**](https://resiliencia.github.io/AutomataFinito/).
